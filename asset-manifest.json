@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/support/static/css/main.e80c2976.css",
-    "main.js": "/support/static/js/main.97f3cf9a.js",
+    "main.css": "/support/static/css/main.abe46cbc.css",
+    "main.js": "/support/static/js/main.db4e90d3.js",
+    "static/media/Dashboard.png": "/support/static/media/Dashboard.cb529d0b34cf48528e89.png",
+    "static/media/callcenter.jpeg": "/support/static/media/callcenter.8176bdb504c975d8c1d0.jpeg",
+    "static/media/calling.jpeg": "/support/static/media/calling.aa39dcae180a8ae58c1a.jpeg",
+    "static/media/logo.png": "/support/static/media/logo.0626235f4743a3ca4513.png",
     "index.html": "/support/index.html",
-    "main.e80c2976.css.map": "/support/static/css/main.e80c2976.css.map",
-    "main.97f3cf9a.js.map": "/support/static/js/main.97f3cf9a.js.map"
+    "main.abe46cbc.css.map": "/support/static/css/main.abe46cbc.css.map",
+    "main.db4e90d3.js.map": "/support/static/js/main.db4e90d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e80c2976.css",
-    "static/js/main.97f3cf9a.js"
+    "static/css/main.abe46cbc.css",
+    "static/js/main.db4e90d3.js"
   ]
 }
