@@ -1,4 +1,7 @@
 import React from "react";
+import logo from "../Images/logo.png";
+import Img_dash from "../Images/Dashboard.png";
+
 
 const Header = () => {
     return (
@@ -18,8 +21,8 @@ const Header = () => {
 
                         {/* main header righ side */}
                         <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
-                            <img src='./Images/Dashboard.png' alt="heroimg" className="img-fluid" />
-                            <img src='./Images/logo.png' alt="heroimg" className="img-fluid main-hero-img2" />
+                            <img src={Img_dash} alt="heroimg" className="img-fluid" />
+                            <img src={logo} alt="heroimg" className="img-fluid main-hero-img2" />
                         </div> 
                     </div>
                 </section>

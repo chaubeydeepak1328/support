@@ -3,14 +3,14 @@ const work = [
         id: 1,
         logo: "fa-solid fa-download",
         title: "Build a website",
-        info: "Create a simple website for a client.",
+        info: "Develop a responsive and user-friendly website using modern web technologies for a client.",
 
     },
     {
         id: 2,
         logo: "fa-solid fa-chalkboard-user",
-        title: "Design a logo",
-        info: "Design a unique logo for a startup.",
+        title: "Mentorship",
+        info: "personalized guidance and mentorship, fostering growth and development.",
     },
     {
         id: 3,
