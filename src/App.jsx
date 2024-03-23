@@ -19,7 +19,7 @@ const App = ()=>{
         <>
             <Navbar/>
             <Routes>
-                <Route exact path="/" element={<Home/>} />
+                <Route exact path="/" Component={Home} />
                 <Route exact path="/about" Component={About} />
                 <Route exact path="/services" Component={Services} />
                 <Route exact path="/contact" Component={Contact} />
