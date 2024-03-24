@@ -393,51 +393,107 @@ header {
 /* Service section start here */
 /* ============================================================================================================ */
 
-.service-main-container{
+.service-main-container {
     margin-top: 5rem;
     padding: 5rem 0;
 }
 
-.service-main-container .main-heading{
+.service-main-container .main-heading {
     margin: 3rem 0;
 }
 
 
-.service-main-container  .work-container-subdiv{
-    box-shadow:  0 .1rem .4rem rgba(0, 0, 0, 0.16);
-}
-.work-container-subdiv:hover{
-     background:var(--bgcolor); 
-     cursor: pointer;
+.service-main-container .work-container-subdiv {
+    box-shadow: 0 .1rem .4rem rgba(0, 0, 0, 0.16);
 }
 
-.work-container-subdiv:hover > .fontawesome-style{
-  background-color: #fff;
+.work-container-subdiv:hover {
+    background: var(--bgcolor);
+    cursor: pointer;
 }
 
-.work-container-subdiv .main-hero-para{
+.work-container-subdiv:hover>.fontawesome-style {
+    background-color: #fff;
+}
+
+.work-container-subdiv .main-hero-para {
     width: 100%;
 }
-.service-main-container .work-container-subdiv .fontawesome-style{
+
+.service-main-container .work-container-subdiv .fontawesome-style {
     text-align: left;
     margin: 2rem 0;
 }
 
 
-@media (min-width:1400px)
-{
-    .service-container .col-xxl-4{
+@media (min-width:1400px) {
+    .service-container .col-xxl-4 {
         flex: 0 0 auto;
         width: 30% !important;
         margin: auto;
     }
 }
 
-@media (min-width:992px)
-{
-    .service-container .col-lg-4{
+@media (min-width:992px) {
+    .service-container .col-lg-4 {
         flex: 0 0 auto;
         width: 30% !important;
         margin: 2.5rem auto;
     }
+}
+
+
+/* ============================================================================================================ */
+/* Contact section start here */
+/* ============================================================================================================ */
+
+.contactus-section {
+    margin: 6rem 0;
+}
+
+.contactus-section img{
+    min-width: 80%;
+    max-height: 30rem;
+    height: auto;
+}
+
+.contact-input-field
+{
+    margin-bottom: 2.5rem;
+}
+
+.form-control{
+    height: 2.5rem;
+}
+
+.contact-rightside form .form-control{
+    border: 1px solid #ced4da;
+    height: 3.5rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.form-checkbox-style{
+    margin: 2.5rem 0;
+}
+
+.contact-rightside form .main-hero-para{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: lighter;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.contact-rightside .contact-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
 }
