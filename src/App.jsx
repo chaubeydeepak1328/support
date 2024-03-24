@@ -7,6 +7,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
+import Error from "./Components/Error";
 
 import { Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
@@ -24,6 +25,7 @@ const App = () => {
                 <Route exact path="/about" Component={About} />
                 <Route exact path="/services" Component={Services} />
                 <Route exact path="/contact" Component={Contact} />
+                <Route path="*" Component={Error} />
             </Routes>
             <Footer />
 

@@ -26,7 +26,7 @@ const Footer = ()=>{
                                 </ul>
                             </div>
                             <div className="col-6 col-lg-3">
-                                <h2>Support</h2>
+                                <h2 >Support</h2>
                                 <ul>
                                     <li>
                                         <a href="#">Help Center</a>
@@ -42,7 +42,7 @@ const Footer = ()=>{
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-6 col-lg-3 py-5">
+                            <div className="col-6 col-lg-3 ">
                                 <h2>Services</h2>
                                 <ul>
                                     <li>
@@ -59,7 +59,7 @@ const Footer = ()=>{
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-6 col-lg-3 py-5 my_icons">
+                            <div className="col-6 col-lg-3 my_icons">
                                 <h2>Follow Us</h2>
                                <div className="col-3 mx-auto">
                                 <a href="#">

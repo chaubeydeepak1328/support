@@ -581,3 +581,18 @@ footer .fontawesome-style:hover {
     text-decoration: none;
 
 }
+
+
+/* ============================================================================================================ */
+/* Footer section start here */
+/* ============================================================================================================ */
+.dashboard_btn{
+    width: fit-content;
+    border-radius: 5rem !important;
+}
+
+
+.dashboard_btn:hover{
+    background-color: #4a33da !important;
+    color: white !important;
+}
