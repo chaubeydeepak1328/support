@@ -394,8 +394,8 @@ header {
 /* ============================================================================================================ */
 
 .service-main-container {
-    margin-top: 5rem;
-    padding: 5rem 0;
+    margin-top: 1rem;
+    padding: 1rem 0;
 }
 
 .service-main-container .main-heading {
@@ -451,22 +451,21 @@ header {
     margin: 6rem 0;
 }
 
-.contactus-section img{
+.contactus-section img {
     min-width: 80%;
     max-height: 30rem;
     height: auto;
 }
 
-.contact-input-field
-{
+.contact-input-field {
     margin-bottom: 2.5rem;
 }
 
-.form-control{
+.form-control {
     height: 2.5rem;
 }
 
-.contact-rightside form .form-control{
+.contact-rightside form .form-control {
     border: 1px solid #ced4da;
     height: 3.5rem;
     border-radius: .5rem;
@@ -475,17 +474,17 @@ header {
     font-weight: lighter;
 }
 
-.contact-rightside form .form-check-input{
+.contact-rightside form .form-check-input {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.form-checkbox-style{
+.form-checkbox-style {
     margin: 2.5rem 0;
 }
 
-.contact-rightside form .main-hero-para{
-    font-size: 1.5rem;
+.contact-rightside form .main-hero-para {
+    font-size: 1rem;
     color: var(--text-color);
     margin: 0;
     font-weight: lighter;
@@ -493,7 +492,92 @@ header {
     padding: 0 2rem;
 }
 
-.contact-rightside .contact-btn:hover{
+.contact-rightside .contact-btn {
+    margin-top: 2.5rem;
+}
+
+.contact-rightside .contact-btn:hover {
     background-color: var(--primary-color);
     color: white;
+}
+
+
+/* ============================================================================================================ */
+/* Footer section start here */
+/* ============================================================================================================ */
+footer {
+    padding: 1rem 0;
+    background-color: #182334;
+}
+
+footer h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+footer li:hover {
+    color: var(--primary-color);
+}
+
+
+footer .main-hero-para {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer .fontawesome-style {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+
+footer .fontawesome-style:hover {
+    transition: all 1s;
+    animation: rotatefont 1s linear infinite alternate-reverse;
+}
+
+
+@keyframes rotatefont {
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.instagram {
+    background-image: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+    color: pink;
+}
+
+.whatsapp {
+    color: green;
+}
+
+.discord {
+    color: blueviolet;
+}
+
+.my_icons a {
+    list-style: none;
+    text-decoration: none;
+
 }

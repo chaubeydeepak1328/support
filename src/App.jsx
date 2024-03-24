@@ -1,4 +1,4 @@
-import React from "react";  
+import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
@@ -9,23 +9,24 @@ import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 
 import { Routes, Route } from "react-router-dom";
+import Footer from "./Components/Footer";
 
 
 
 
 
-const App = ()=>{
-    return(
+const App = () => {
+    return (
         <>
-            <Navbar/>
-            <Home/>
+            <Navbar />
             <Routes>
                 <Route exact path="/" Component={Home} />
                 <Route exact path="/about" Component={About} />
                 <Route exact path="/services" Component={Services} />
                 <Route exact path="/contact" Component={Contact} />
             </Routes>
-            
+            <Footer />
+
         </>
     )
 }
