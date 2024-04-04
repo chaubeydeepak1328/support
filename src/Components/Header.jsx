@@ -22,7 +22,7 @@ const Header = () => {
                         {/* main header righ side */}
                         <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
                             <img src={Img_dash} alt="heroimg" className="img-fluid" />
-                            <img src={logo} alt="heroimg" className="img-fluid main-hero-img2" />
+                            <a href="tel:7048986551"><img src={logo} alt="heroimg" className="img-fluid main-hero-img2" /></a>
                         </div> 
                     </div>
                 </section>
